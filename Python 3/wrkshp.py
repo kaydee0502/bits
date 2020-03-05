@@ -19,7 +19,8 @@ for i in ls:
         if a == i-1:
             prime.append(i)
         a+=1
-    
+
+prime.sort()
 print(prime)
 for a in prime:
     while a != 0:
