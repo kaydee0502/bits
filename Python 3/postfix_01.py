@@ -1,4 +1,4 @@
-class stack:
+class stack():
     def __init__(self,data):
         self.data = data
 
